@@ -1,0 +1,16 @@
+.learn-section {
+  background-color: var(--primary-colour);
+  color: var(--colour-white);
+}
+
+.learn-section-two {
+  background-color: var(--colour-light-grey);
+  color: var(--primary-colour-tint);
+}
+
+.div-width {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+  width: 100%;
+}

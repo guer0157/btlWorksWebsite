@@ -1,0 +1,120 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --primary-colour: #2A2E34;
+  --primary-colour-tint: #231F20;
+  --primary-colour-light: #555D6B;
+  --secondary-colour: #AFBD38;
+  --secondary-colour-light: #ECEFD2;
+  --accent-colour: #77A1A4;
+  --accent-colour-light: #B7C9CB;
+  --colour-white: #fff;
+  --colour-black: #000;
+  --colour-light-grey: #fafafa;
+  --colour-dark-grey: #ddd;
+}
+
+.embed-4by2 {
+  padding-top: 65%;
+}
+
+.btn {
+  background-color: var(--secondary-colour);
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.white-text {
+  color: var(--colour-white);
+}
+
+.grey-text {
+  color: var(--primary-colour-light);
+}
+
+.green-text {
+  color: var(--secondary-colour);
+}
+
+.blue-text {
+  color: var(--primary-colour);
+}
+
+.accent-text {
+  color: var(--accent-colour);
+}
+
+
+.green {
+  background-color: var(--secondary-colour);
+}
+
+.light-blue {
+  background-color: var(--primary-colour-light);
+}
+
+.blue {
+  background-color: var(--primary-colour-tint);
+}
+
+.coorporate-blue {
+  background-color: var(--primary-colour);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--secondary-colour);
+  color: var(--secondary-colour);
+}
+
+.btn-blue {
+  background-color: var(--primary-colour);
+  border-color: transparent;
+  color: var(--colour-white);
+}
+
+.btn:hover {
+  background-color: var(--accent-colour);
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  border-color: var(--accent-colour);
+  color: var(--accent-colour);
+}
+
+.btn-blue:hover {
+  background-color: var(--secondary-colour);
+  border-color: transparent;
+  color: var(--colour-white);
+}
+
+
+.max-widthsmallertitle {
+  max-width: 11em;
+  color: var(--colour-white);
+}
+
+.max-widthsmalltitle {
+  max-width: 14em;
+  color: var(--colour-white);
+}
+
+.max-widthtitle {
+  max-width: 16em;
+  color: var(--colour-white);
+}
+
+.max-widthtext {
+  max-width: 29em;
+  color: var(--colour-white);
+}
+
+.max-widthsmalltext {
+  max-width: 10em;
+  color: var(--colour-white);
+}
